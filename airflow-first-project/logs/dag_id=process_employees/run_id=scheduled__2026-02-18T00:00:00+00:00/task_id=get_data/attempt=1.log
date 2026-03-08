@@ -1,0 +1,10 @@
+{"timestamp":"2026-02-19T23:16:01.415529Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-19T23:16:01.415840Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/process_employees.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-19T23:16:01.446465Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-19T23:16:01.449326Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-19T23:16:01.449659Z","level":"info","event":"Current task name:get_data","logger":"task.stdout"}
+{"timestamp":"2026-02-19T23:16:01.449880Z","level":"info","event":"Dag name:process_employees","logger":"task.stdout"}
+{"timestamp":"2026-02-19T23:16:01.939441Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-19T23:16:01.946368Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-19T23:16:01.946809Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-19T23:16:01.946955Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): get_data>","logger":"task.stdout"}

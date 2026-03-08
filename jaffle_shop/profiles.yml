@@ -1,0 +1,14 @@
+jaffle_shop:
+  outputs:
+    dev:
+      dataset: airbnb
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      method: service-account
+      priority: interactive
+      project: fictional-lab-dev
+      keyfile: ./fictional-lab-dev-695729ef61c1.json
+      threads: 1
+      type: bigquery
+  target: dev
