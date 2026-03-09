@@ -8,7 +8,7 @@ jaffle_shop:
       method: service-account
       priority: interactive
       project: fictional-lab-dev
-      keyfile: ./fictional-lab-dev-695729ef61c1.json
+      keyfile: /usr/app/service_account.json
       threads: 1
       type: bigquery
   target: dev
