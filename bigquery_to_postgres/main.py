@@ -11,7 +11,7 @@ KEY_PATH = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS")
 DATETIME = dt.now().strftime("%Y%m%d%H%M")
 
 def get_file_name(table_id):
-    return f"{table_id}_{DATETIME}"
+    return f"{table_id}_*"
 
 def main():
     bq_client = bq.Client.from_service_account_json(KEY_PATH)
@@ -27,7 +27,7 @@ def main():
         file_name,
         bq_client
     )
-    time.sleep(30)  # Wait for the file to be available in GCS
+    time.sleep(60)  # Wait for the file to be available in GCS
     gcs2pg.gcs_to_postgres(
         cst.GCS_BUCKET,
         cst.TABLE_ID,
