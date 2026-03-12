@@ -1,0 +1,561 @@
+[0m00:38:37.208708 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103d25fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a93750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a939d0>]}
+
+
+============================== 00:38:37.210617 | ec2e738e-39e6-43a2-9226-9a79a37a5079 ==============================
+[0m00:38:37.210617 [info ] [MainThread]: Running with dbt=1.9.0
+[0m00:38:37.210857 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/logs', 'debug': 'False', 'profiles_dir': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt ', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m00:38:37.315337 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ec2e738e-39e6-43a2-9226-9a79a37a5079', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103ff0fc0>]}
+[0m00:38:37.321309 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m00:38:37.321642 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m00:38:37.344965 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.16371629, "process_in_blocks": "0", "process_kernel_time": 0.072361, "process_mem_max_rss": "105250816", "process_out_blocks": "0", "process_user_time": 0.470061}
+[0m00:38:37.345179 [debug] [MainThread]: Command `cli deps` succeeded at 00:38:37.345129 after 0.16 seconds
+[0m00:38:37.345324 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10491f130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104c107c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b05c50>]}
+[0m00:38:37.345459 [debug] [MainThread]: Flushing usage events
+[0m00:38:39.105367 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:15:21.914873 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10419c980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1050df9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1050df890>]}
+
+
+============================== 03:15:21.916616 | 7aef808a-f5dc-4a06-a922-b57036108188 ==============================
+[0m03:15:21.916616 [info ] [MainThread]: Running with dbt=1.11.2
+[0m03:15:21.916856 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'static_parser': 'True', 'version_check': 'True', 'use_colors': 'True', 'no_print': 'None', 'log_cache_events': 'False', 'profiles_dir': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop', 'write_json': 'True', 'indirect_selection': 'eager', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'printer_width': '80', 'use_experimental_parser': 'False', 'log_path': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/logs', 'quiet': 'False', 'log_format': 'default', 'empty': 'None', 'introspect': 'True', 'invocation_command': 'dbt ', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None'}
+[0m03:15:21.959441 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7aef808a-f5dc-4a06-a922-b57036108188', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1044010f0>]}
+[0m03:15:21.965619 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m03:15:21.966256 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m03:15:21.978089 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.09266225, "process_in_blocks": "0", "process_kernel_time": 0.058309, "process_mem_max_rss": "109707264", "process_out_blocks": "0", "process_user_time": 0.516647}
+[0m03:15:21.978386 [debug] [MainThread]: Command `cli deps` succeeded at 03:15:21.978338 after 0.09 seconds
+[0m03:15:21.978538 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1051c86b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1051c9260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105154e50>]}
+[0m03:15:21.978670 [debug] [MainThread]: Flushing usage events
+[0m03:15:23.987329 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:36:16.518520 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10456c980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1054af9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1054af890>]}
+
+
+============================== 10:36:16.520386 | 4b86adfa-efc3-469f-9dee-b3d18a63ad2f ==============================
+[0m10:36:16.520386 [info ] [MainThread]: Running with dbt=1.11.2
+[0m10:36:16.520624 [debug] [MainThread]: running dbt with arguments {'profiles_dir': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'debug': 'False', 'warn_error': 'None', 'no_print': 'None', 'cache_selected_only': 'False', 'static_parser': 'True', 'use_experimental_parser': 'False', 'use_colors': 'True', 'empty': 'None', 'log_cache_events': 'False', 'invocation_command': 'dbt ', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'printer_width': '80', 'log_format': 'default', 'quiet': 'False', 'indirect_selection': 'eager', 'version_check': 'True', 'log_path': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/logs', 'partial_parse': 'True'}
+[0m10:36:16.636166 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4b86adfa-efc3-469f-9dee-b3d18a63ad2f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1047d10f0>]}
+[0m10:36:16.643761 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:36:16.644283 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:36:16.658935 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.16847333, "process_in_blocks": "0", "process_kernel_time": 0.076262, "process_mem_max_rss": "108707840", "process_out_blocks": "0", "process_user_time": 0.496997}
+[0m10:36:16.659201 [debug] [MainThread]: Command `cli deps` succeeded at 10:36:16.659142 after 0.17 seconds
+[0m10:36:16.659374 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1055986b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105599260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105524e50>]}
+[0m10:36:16.659535 [debug] [MainThread]: Flushing usage events
+[0m10:36:16.667555 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:15:44.935687 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108aa4980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ace79d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ace7890>]}
+
+
+============================== 13:15:44.937598 | 1e72b96e-fd6d-4f47-885c-1dc2d4539211 ==============================
+[0m13:15:44.937598 [info ] [MainThread]: Running with dbt=1.11.2
+[0m13:15:44.937838 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'introspect': 'True', 'log_path': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/logs', 'empty': 'None', 'use_experimental_parser': 'False', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'fail_fast': 'False', 'indirect_selection': 'eager', 'partial_parse': 'True', 'log_cache_events': 'False', 'invocation_command': 'dbt ', 'version_check': 'True', 'write_json': 'True', 'static_parser': 'True', 'use_colors': 'True', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'quiet': 'False', 'target_path': 'None', 'no_print': 'None', 'profiles_dir': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop', 'warn_error': 'None'}
+[0m13:15:45.022124 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1e72b96e-fd6d-4f47-885c-1dc2d4539211', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1093090f0>]}
+[0m13:15:45.029750 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:15:45.030210 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:15:45.042835 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.13482258, "process_in_blocks": "0", "process_kernel_time": 0.06603, "process_mem_max_rss": "108642304", "process_out_blocks": "0", "process_user_time": 0.513619}
+[0m13:15:45.043080 [debug] [MainThread]: Command `cli deps` succeeded at 13:15:45.043032 after 0.14 seconds
+[0m13:15:45.043223 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10add06b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10add1260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ad5ce50>]}
+[0m13:15:45.043367 [debug] [MainThread]: Flushing usage events
+[0m13:15:45.048169 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:55:25.240105 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aa28c90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a600d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aaa19d0>]}
+
+
+============================== 00:55:25.242659 | 33f7a8a3-8a75-4699-a2f4-efead132baac ==============================
+[0m00:55:25.242659 [info ] [MainThread]: Running with dbt=1.11.2
+[0m00:55:25.242902 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop', 'log_path': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m00:55:30.699992 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '33f7a8a3-8a75-4699-a2f4-efead132baac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13937b7d0>]}
+[0m00:55:30.718322 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '33f7a8a3-8a75-4699-a2f4-efead132baac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106fb1d50>]}
+[0m00:55:30.718520 [info ] [MainThread]: Registered adapter: bigquery=1.11.0
+[0m00:55:30.807524 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m00:55:30.856390 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m00:55:30.856553 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m00:55:30.856634 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m00:55:30.871311 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '33f7a8a3-8a75-4699-a2f4-efead132baac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13970c6d0>]}
+[0m00:55:30.899383 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/target/manifest.json
+[0m00:55:30.900083 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/target/semantic_manifest.json
+[0m00:55:30.908832 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '33f7a8a3-8a75-4699-a2f4-efead132baac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107bc1750>]}
+[0m00:55:30.909013 [info ] [MainThread]: Found 7 models, 1 seed, 3 sources, 538 macros
+[0m00:55:30.909124 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '33f7a8a3-8a75-4699-a2f4-efead132baac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x139412b90>]}
+[0m00:55:30.909807 [info ] [MainThread]: 
+[0m00:55:30.909916 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m00:55:30.909999 [info ] [MainThread]: 
+[0m00:55:30.910167 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m00:55:30.911604 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fictional-lab-dev'
+[0m00:55:30.911729 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m00:55:30.911855 [debug] [ThreadPool]: BigQuery adapter: Got an error when attempting to create a bigquery " "client: '[Errno 2] No such file or directory: '/usr/app/service_account.json''
+[0m00:55:30.912036 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m00:55:30.912147 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery " "client: '[Errno 2] No such file or directory: '/usr/app/service_account.json''
+[0m00:55:30.912240 [info ] [MainThread]: 
+[0m00:55:30.912337 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.00 seconds (0.00s).
+[0m00:55:30.912913 [error] [MainThread]: Encountered an error:
+Database Error
+  [Errno 2] No such file or directory: '/usr/app/service_account.json'
+[0m00:55:30.928245 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aa94ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105255f90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x138854f10>]}
+[0m00:55:30.928364 [debug] [MainThread]: Flushing usage events
+[0m00:55:32.757286 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:56:08.714615 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1047d4980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105717890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1057179d0>]}
+
+
+============================== 00:56:08.716548 | 0caa892c-13e3-4455-928a-a5847bb808e8 ==============================
+[0m00:56:08.716548 [info ] [MainThread]: Running with dbt=1.11.2
+[0m00:56:08.716781 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'empty': 'None', 'introspect': 'True', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'log_cache_events': 'False', 'log_format': 'default', 'debug': 'False', 'invocation_command': 'dbt ', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'no_print': 'None', 'profiles_dir': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop', 'write_json': 'True', 'use_colors': 'True', 'quiet': 'False', 'printer_width': '80', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'log_path': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/logs', 'warn_error': 'None', 'partial_parse': 'True', 'target_path': 'None', 'cache_selected_only': 'False'}
+[0m00:56:08.818951 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0caa892c-13e3-4455-928a-a5847bb808e8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a3d0f0>]}
+[0m00:56:08.826090 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m00:56:08.826704 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m00:56:08.838253 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.15137576, "process_in_blocks": "0", "process_kernel_time": 0.068131, "process_mem_max_rss": "109166592", "process_out_blocks": "0", "process_user_time": 0.505117}
+[0m00:56:08.838498 [debug] [MainThread]: Command `cli deps` succeeded at 00:56:08.838450 after 0.15 seconds
+[0m00:56:08.838649 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1058006b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105801260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10579ce50>]}
+[0m00:56:08.838801 [debug] [MainThread]: Flushing usage events
+[0m00:56:10.475872 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:56:35.278714 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10344cf50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e91410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e8a510>]}
+
+
+============================== 00:56:35.280633 | 3d1b4aa2-34d9-4971-84df-101a24471de3 ==============================
+[0m00:56:35.280633 [info ] [MainThread]: Running with dbt=1.11.2
+[0m00:56:35.280871 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'invocation_command': 'dbt test', 'send_anonymous_usage_stats': 'True'}
+[0m00:56:38.601921 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3d1b4aa2-34d9-4971-84df-101a24471de3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e23a90>]}
+[0m00:56:38.621159 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3d1b4aa2-34d9-4971-84df-101a24471de3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10346b4d0>]}
+[0m00:56:38.621381 [info ] [MainThread]: Registered adapter: bigquery=1.11.0
+[0m00:56:38.700957 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m00:56:38.749263 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m00:56:38.749422 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m00:56:38.749519 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m00:56:38.764720 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3d1b4aa2-34d9-4971-84df-101a24471de3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x143409b10>]}
+[0m00:56:38.793419 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/target/manifest.json
+[0m00:56:38.794147 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/target/semantic_manifest.json
+[0m00:56:38.806707 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3d1b4aa2-34d9-4971-84df-101a24471de3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14374d1d0>]}
+[0m00:56:38.806892 [info ] [MainThread]: Found 7 models, 1 seed, 3 sources, 538 macros
+[0m00:56:38.807020 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3d1b4aa2-34d9-4971-84df-101a24471de3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x143500ed0>]}
+[0m00:56:38.807616 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m00:56:38.808265 [debug] [MainThread]: Command end result
+[0m00:56:38.817147 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/target/manifest.json
+[0m00:56:38.817807 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/target/semantic_manifest.json
+[0m00:56:38.818974 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/target/run_results.json
+[0m00:56:38.820416 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100a7a250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ecdc90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14340a2d0>]}
+[0m00:56:38.820557 [debug] [MainThread]: Flushing usage events
+[0m00:56:40.988767 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:57:06.636982 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ae0ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108a43890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108a439d0>]}
+
+
+============================== 00:57:06.639393 | f7000693-ef3a-4606-9313-15b1938595cc ==============================
+[0m00:57:06.639393 [info ] [MainThread]: Running with dbt=1.11.2
+[0m00:57:06.639647 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'version_check': 'True', 'no_print': 'None', 'log_path': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/logs', 'use_experimental_parser': 'False', 'static_parser': 'True', 'profiles_dir': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop', 'write_json': 'True', 'fail_fast': 'False', 'warn_error': 'None', 'log_cache_events': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_format': 'default', 'printer_width': '80', 'target_path': 'None', 'cache_selected_only': 'False', 'empty': 'None', 'invocation_command': 'dbt test', 'quiet': 'False', 'debug': 'False', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True'}
+[0m00:57:09.143196 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f7000693-ef3a-4606-9313-15b1938595cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107d5cfc0>]}
+[0m00:57:09.163340 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f7000693-ef3a-4606-9313-15b1938595cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13e5bfbd0>]}
+[0m00:57:09.163565 [info ] [MainThread]: Registered adapter: bigquery=1.11.0
+[0m00:57:09.254803 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m00:57:09.303739 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m00:57:09.303910 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m00:57:09.304003 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m00:57:09.318872 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f7000693-ef3a-4606-9313-15b1938595cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13fb8ec50>]}
+[0m00:57:09.347234 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/target/manifest.json
+[0m00:57:09.347923 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/target/semantic_manifest.json
+[0m00:57:09.360764 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f7000693-ef3a-4606-9313-15b1938595cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14a3c37a0>]}
+[0m00:57:09.360943 [info ] [MainThread]: Found 7 models, 1 seed, 3 sources, 538 macros
+[0m00:57:09.361069 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f7000693-ef3a-4606-9313-15b1938595cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14a434910>]}
+[0m00:57:09.361724 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m00:57:09.362437 [debug] [MainThread]: Command end result
+[0m00:57:09.371360 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/target/manifest.json
+[0m00:57:09.372106 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/target/semantic_manifest.json
+[0m00:57:09.373596 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/target/run_results.json
+[0m00:57:09.375092 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 2.7650912, "process_in_blocks": "0", "process_kernel_time": 0.631359, "process_mem_max_rss": "391430144", "process_out_blocks": "0", "process_user_time": 2.362458}
+[0m00:57:09.375300 [debug] [MainThread]: Command `dbt test` succeeded at 00:57:09.375267 after 2.77 seconds
+[0m00:57:09.375441 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14a3dfc70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108853590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14a410d10>]}
+[0m00:57:09.375560 [debug] [MainThread]: Flushing usage events
+[0m00:57:11.709657 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:57:15.171158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106250ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071b3890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071b39d0>]}
+
+
+============================== 00:57:15.172815 | aa226918-d10a-4246-a97a-036ecd41de1e ==============================
+[0m00:57:15.172815 [info ] [MainThread]: Running with dbt=1.11.2
+[0m00:57:15.173055 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'profiles_dir': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop', 'static_parser': 'True', 'target_path': 'None', 'debug': 'False', 'introspect': 'True', 'printer_width': '80', 'log_format': 'default', 'partial_parse': 'True', 'version_check': 'True', 'log_path': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/logs', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'log_cache_events': 'False', 'warn_error': 'None', 'invocation_command': 'dbt run', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'False', 'write_json': 'True', 'quiet': 'False', 'indirect_selection': 'eager'}
+[0m00:57:17.338062 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'aa226918-d10a-4246-a97a-036ecd41de1e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1064ccfc0>]}
+[0m00:57:17.358218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'aa226918-d10a-4246-a97a-036ecd41de1e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1442dfbd0>]}
+[0m00:57:17.358426 [info ] [MainThread]: Registered adapter: bigquery=1.11.0
+[0m00:57:17.446817 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m00:57:17.496455 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m00:57:17.496623 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m00:57:17.496716 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m00:57:17.511520 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'aa226918-d10a-4246-a97a-036ecd41de1e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x144ac5950>]}
+[0m00:57:17.540180 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/target/manifest.json
+[0m00:57:17.540898 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/target/semantic_manifest.json
+[0m00:57:17.549819 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'aa226918-d10a-4246-a97a-036ecd41de1e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1449477a0>]}
+[0m00:57:17.549994 [info ] [MainThread]: Found 7 models, 1 seed, 3 sources, 538 macros
+[0m00:57:17.550115 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'aa226918-d10a-4246-a97a-036ecd41de1e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x144559470>]}
+[0m00:57:17.550881 [info ] [MainThread]: 
+[0m00:57:17.551003 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m00:57:17.551098 [info ] [MainThread]: 
+[0m00:57:17.551279 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m00:57:17.552721 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fictional-lab-dev'
+[0m00:57:17.552878 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m00:57:17.553037 [debug] [ThreadPool]: BigQuery adapter: Got an error when attempting to create a bigquery " "client: '[Errno 2] No such file or directory: '/usr/app/service_account.json''
+[0m00:57:17.553206 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m00:57:17.553322 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery " "client: '[Errno 2] No such file or directory: '/usr/app/service_account.json''
+[0m00:57:17.553427 [info ] [MainThread]: 
+[0m00:57:17.553532 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.00 seconds (0.00s).
+[0m00:57:17.554140 [error] [MainThread]: Encountered an error:
+Database Error
+  [Errno 2] No such file or directory: '/usr/app/service_account.json'
+[0m00:57:17.555146 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 2.4086347, "process_in_blocks": "0", "process_kernel_time": 0.564503, "process_mem_max_rss": "386727936", "process_out_blocks": "0", "process_user_time": 2.307002}
+[0m00:57:17.555397 [debug] [MainThread]: Command `dbt run` failed at 00:57:17.555365 after 2.41 seconds
+[0m00:57:17.555535 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x144c7d160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106fc3650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x144c97650>]}
+[0m00:57:17.555720 [debug] [MainThread]: Flushing usage events
+[0m00:57:19.389414 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:58:30.006887 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f9cad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074ef890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074ef9d0>]}
+
+
+============================== 00:58:30.010304 | 6292894f-4f22-4bae-a1ba-4c56d5a0eda6 ==============================
+[0m00:58:30.010304 [info ] [MainThread]: Running with dbt=1.11.2
+[0m00:58:30.010731 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'partial_parse': 'True', 'no_print': 'None', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'use_experimental_parser': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop', 'log_cache_events': 'False', 'version_check': 'True', 'empty': 'False', 'static_parser': 'True', 'printer_width': '80', 'log_format': 'default', 'target_path': 'None', 'use_colors': 'True', 'cache_selected_only': 'False', 'quiet': 'False', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'log_path': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/logs', 'write_json': 'True'}
+[0m00:58:32.813136 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6292894f-4f22-4bae-a1ba-4c56d5a0eda6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10660cfc0>]}
+[0m00:58:32.836992 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6292894f-4f22-4bae-a1ba-4c56d5a0eda6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1451fbbd0>]}
+[0m00:58:32.837374 [info ] [MainThread]: Registered adapter: bigquery=1.11.0
+[0m00:58:32.940479 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m00:58:32.990529 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m00:58:32.990757 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m00:58:32.990867 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m00:58:33.007788 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6292894f-4f22-4bae-a1ba-4c56d5a0eda6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1456c9950>]}
+[0m00:58:33.040473 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/target/manifest.json
+[0m00:58:33.041638 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/target/semantic_manifest.json
+[0m00:58:33.052085 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6292894f-4f22-4bae-a1ba-4c56d5a0eda6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1455477a0>]}
+[0m00:58:33.052339 [info ] [MainThread]: Found 7 models, 1 seed, 3 sources, 538 macros
+[0m00:58:33.052502 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6292894f-4f22-4bae-a1ba-4c56d5a0eda6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x145259470>]}
+[0m00:58:33.053433 [info ] [MainThread]: 
+[0m00:58:33.053581 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m00:58:33.053683 [info ] [MainThread]: 
+[0m00:58:33.053889 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m00:58:33.055705 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fictional-lab-dev'
+[0m00:58:33.055990 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m00:58:34.780965 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_fictional-lab-dev, now list_fictional-lab-dev_airbnb)
+[0m00:58:34.781653 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m00:58:35.889530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6292894f-4f22-4bae-a1ba-4c56d5a0eda6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b53790>]}
+[0m00:58:35.890095 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m00:58:35.942100 [debug] [Thread-1 (]: Began running node model.jaffle_shop.src_hosts
+[0m00:58:35.942387 [info ] [Thread-1 (]: 1 of 7 START sql view model airbnb.src_hosts ................................... [RUN]
+[0m00:58:35.942604 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.jaffle_shop.src_hosts'
+[0m00:58:35.942733 [debug] [Thread-1 (]: Began compiling node model.jaffle_shop.src_hosts
+[0m00:58:35.946744 [debug] [Thread-1 (]: Writing injected SQL for node "model.jaffle_shop.src_hosts"
+[0m00:58:35.947213 [debug] [Thread-1 (]: Began executing node model.jaffle_shop.src_hosts
+[0m00:58:35.959455 [debug] [Thread-1 (]: Writing runtime sql for node "model.jaffle_shop.src_hosts"
+[0m00:58:35.960033 [debug] [Thread-1 (]: On model.jaffle_shop.src_hosts: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_shop", "target_name": "dev", "node_id": "model.jaffle_shop.src_hosts"} */
+
+
+  create or replace view `fictional-lab-dev`.`airbnb`.`src_hosts`
+  OPTIONS()
+  as with raw_hosts AS (
+    SELECT * FROM `fictional-lab-dev`.`airbnb`.`raw_hosts`
+)
+SELECT 
+    id as host_id,
+    name as host_name,
+    IS_SUPERHOST,
+    created_at,
+    updated_at
+FROM raw_hosts;
+
+
+[0m00:58:35.960206 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m00:58:37.418753 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fictional-lab-dev&j=bq:US:a519d454-0d1e-4f2c-bcd6-51053b4ed704&page=queryresults
+[0m00:58:38.114981 [debug] [Thread-1 (]: SQL status: OK in 0.695 seconds
+[0m00:58:38.171851 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6292894f-4f22-4bae-a1ba-4c56d5a0eda6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x146b09550>]}
+[0m00:58:38.172215 [info ] [Thread-1 (]: 1 of 7 OK created sql view model airbnb.src_hosts .............................. [[32mCREATE VIEW (0 processed)[0m in 2.23s]
+[0m00:58:38.172490 [debug] [Thread-1 (]: Finished running node model.jaffle_shop.src_hosts
+[0m00:58:38.172660 [debug] [Thread-1 (]: Began running node model.jaffle_shop.src_listings
+[0m00:58:38.172881 [info ] [Thread-1 (]: 2 of 7 START sql view model airbnb.src_listings ................................ [RUN]
+[0m00:58:38.173092 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.jaffle_shop.src_hosts, now model.jaffle_shop.src_listings)
+[0m00:58:38.173268 [debug] [Thread-1 (]: Began compiling node model.jaffle_shop.src_listings
+[0m00:58:38.174516 [debug] [Thread-1 (]: Writing injected SQL for node "model.jaffle_shop.src_listings"
+[0m00:58:38.174843 [debug] [Thread-1 (]: Began executing node model.jaffle_shop.src_listings
+[0m00:58:38.176144 [debug] [Thread-1 (]: Writing runtime sql for node "model.jaffle_shop.src_listings"
+[0m00:58:38.176566 [debug] [Thread-1 (]: On model.jaffle_shop.src_listings: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_shop", "target_name": "dev", "node_id": "model.jaffle_shop.src_listings"} */
+
+
+  create or replace view `fictional-lab-dev`.`airbnb`.`src_listings`
+  OPTIONS()
+  as with raw_listings AS (
+    SELECT * FROM `fictional-lab-dev`.`airbnb`.`raw_listings`
+)
+SELECT 
+    id as listing_id,
+    name AS listing_name,
+    listing_url,
+    room_type,
+    minimum_nights,
+    host_id,
+    price AS price_str,
+    created_at,
+    updated_at
+FROM raw_listings;
+
+
+[0m00:58:38.176734 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m00:58:39.390124 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fictional-lab-dev&j=bq:US:295cd3fd-f2ae-4c73-8989-6c3f470fbff9&page=queryresults
+[0m00:58:40.065937 [debug] [Thread-1 (]: SQL status: OK in 0.675 seconds
+[0m00:58:40.074680 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6292894f-4f22-4bae-a1ba-4c56d5a0eda6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1469c26d0>]}
+[0m00:58:40.075663 [info ] [Thread-1 (]: 2 of 7 OK created sql view model airbnb.src_listings ........................... [[32mCREATE VIEW (0 processed)[0m in 1.90s]
+[0m00:58:40.076303 [debug] [Thread-1 (]: Finished running node model.jaffle_shop.src_listings
+[0m00:58:40.076708 [debug] [Thread-1 (]: Began running node model.jaffle_shop.src_reviews
+[0m00:58:40.077280 [info ] [Thread-1 (]: 3 of 7 START sql view model airbnb.src_reviews ................................. [RUN]
+[0m00:58:40.077916 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.jaffle_shop.src_listings, now model.jaffle_shop.src_reviews)
+[0m00:58:40.078282 [debug] [Thread-1 (]: Began compiling node model.jaffle_shop.src_reviews
+[0m00:58:40.081761 [debug] [Thread-1 (]: Writing injected SQL for node "model.jaffle_shop.src_reviews"
+[0m00:58:40.083024 [debug] [Thread-1 (]: Began executing node model.jaffle_shop.src_reviews
+[0m00:58:40.086521 [debug] [Thread-1 (]: Writing runtime sql for node "model.jaffle_shop.src_reviews"
+[0m00:58:40.087322 [debug] [Thread-1 (]: On model.jaffle_shop.src_reviews: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_shop", "target_name": "dev", "node_id": "model.jaffle_shop.src_reviews"} */
+
+
+  create or replace view `fictional-lab-dev`.`airbnb`.`src_reviews`
+  OPTIONS()
+  as with raw_reviews AS (
+    SELECT * FROM `fictional-lab-dev`.`airbnb`.`raw_reviews`
+)
+SELECT 
+    listing_id,
+    date as review_date,
+    reviewer_name,
+    comments as review_text,
+    sentiment as review_sentiment
+FROM raw_reviews;
+
+
+[0m00:58:40.087679 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m00:58:41.398773 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fictional-lab-dev&j=bq:US:00ac37bc-24ca-4972-9d4b-d7ae9c1af8d5&page=queryresults
+[0m00:58:42.094238 [debug] [Thread-1 (]: SQL status: OK in 0.694 seconds
+[0m00:58:42.101544 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6292894f-4f22-4bae-a1ba-4c56d5a0eda6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x146e7ad50>]}
+[0m00:58:42.102384 [info ] [Thread-1 (]: 3 of 7 OK created sql view model airbnb.src_reviews ............................ [[32mCREATE VIEW (0 processed)[0m in 2.02s]
+[0m00:58:42.102924 [debug] [Thread-1 (]: Finished running node model.jaffle_shop.src_reviews
+[0m00:58:42.103294 [debug] [Thread-1 (]: Began running node model.jaffle_shop.dim_hosts_cleansed
+[0m00:58:42.103802 [info ] [Thread-1 (]: 4 of 7 START sql table model airbnb.dim_hosts_cleansed ......................... [RUN]
+[0m00:58:42.104371 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.jaffle_shop.src_reviews, now model.jaffle_shop.dim_hosts_cleansed)
+[0m00:58:42.104665 [debug] [Thread-1 (]: Began compiling node model.jaffle_shop.dim_hosts_cleansed
+[0m00:58:42.107998 [debug] [Thread-1 (]: Writing injected SQL for node "model.jaffle_shop.dim_hosts_cleansed"
+[0m00:58:42.109267 [debug] [Thread-1 (]: Began executing node model.jaffle_shop.dim_hosts_cleansed
+[0m00:58:42.125341 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m00:58:43.278487 [debug] [Thread-1 (]: Writing runtime sql for node "model.jaffle_shop.dim_hosts_cleansed"
+[0m00:58:43.279640 [debug] [Thread-1 (]: On model.jaffle_shop.dim_hosts_cleansed: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_shop", "target_name": "dev", "node_id": "model.jaffle_shop.dim_hosts_cleansed"} */
+
+  
+    
+
+    create or replace table `fictional-lab-dev`.`airbnb`.`dim_hosts_cleansed`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      WITH src_hosts AS (
+    SELECT *
+    FROM `fictional-lab-dev`.`airbnb`.`src_hosts`
+)
+
+SELECT
+    host_id,
+    IFNULL(host_name, 'Anonymous') AS host_name,
+    IS_SUPERHOST,
+    created_at,
+    updated_at
+FROM src_hosts
+    );
+  
+[0m00:58:43.999905 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fictional-lab-dev&j=bq:US:fdf77811-f8af-4fd5-aba9-561e2500c83a&page=queryresults
+[0m00:58:46.856388 [debug] [Thread-1 (]: SQL status: OK in 2.856 seconds
+[0m00:58:47.263378 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6292894f-4f22-4bae-a1ba-4c56d5a0eda6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x146e9ead0>]}
+[0m00:58:47.264343 [info ] [Thread-1 (]: 4 of 7 OK created sql table model airbnb.dim_hosts_cleansed .................... [[32mCREATE TABLE (14.1k rows, 484.6 KiB processed)[0m in 5.16s]
+[0m00:58:47.264991 [debug] [Thread-1 (]: Finished running node model.jaffle_shop.dim_hosts_cleansed
+[0m00:58:47.265411 [debug] [Thread-1 (]: Began running node model.jaffle_shop.dim_listings_cleansed
+[0m00:58:47.265939 [info ] [Thread-1 (]: 5 of 7 START sql table model airbnb.dim_listings_cleansed ...................... [RUN]
+[0m00:58:47.266355 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.jaffle_shop.dim_hosts_cleansed, now model.jaffle_shop.dim_listings_cleansed)
+[0m00:58:47.266685 [debug] [Thread-1 (]: Began compiling node model.jaffle_shop.dim_listings_cleansed
+[0m00:58:47.270036 [debug] [Thread-1 (]: Writing injected SQL for node "model.jaffle_shop.dim_listings_cleansed"
+[0m00:58:47.271008 [debug] [Thread-1 (]: Began executing node model.jaffle_shop.dim_listings_cleansed
+[0m00:58:47.275238 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m00:58:48.787389 [debug] [Thread-1 (]: Writing runtime sql for node "model.jaffle_shop.dim_listings_cleansed"
+[0m00:58:48.789264 [debug] [Thread-1 (]: On model.jaffle_shop.dim_listings_cleansed: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_shop", "target_name": "dev", "node_id": "model.jaffle_shop.dim_listings_cleansed"} */
+
+  
+    
+
+    create or replace table `fictional-lab-dev`.`airbnb`.`dim_listings_cleansed`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      WITH src_listings AS (
+    SELECT *
+    FROM `fictional-lab-dev`.`airbnb`.`src_listings`
+)
+SELECT
+    listing_id,
+    listing_name,
+    room_type,
+    CASE
+        WHEN minimum_nights = 0 THEN 1
+        ELSE minimum_nights
+    END AS minimum_nights,
+    host_id,
+    CAST(REPLACE(price_str, '$', '') AS FLOAT64) AS price,
+    created_at,
+    updated_at
+FROM src_listings
+    );
+  
+[0m00:58:49.704834 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fictional-lab-dev&j=bq:US:37d9e9c2-6152-4b2c-a73c-91af3978aa84&page=queryresults
+[0m00:58:53.084080 [debug] [Thread-1 (]: SQL status: OK in 3.378 seconds
+[0m00:58:53.434245 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6292894f-4f22-4bae-a1ba-4c56d5a0eda6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x146ed6200>]}
+[0m00:58:53.435185 [info ] [Thread-1 (]: 5 of 7 OK created sql table model airbnb.dim_listings_cleansed ................. [[32mCREATE TABLE (17.5k rows, 1.7 MiB processed)[0m in 6.17s]
+[0m00:58:53.435801 [debug] [Thread-1 (]: Finished running node model.jaffle_shop.dim_listings_cleansed
+[0m00:58:53.436219 [debug] [Thread-1 (]: Began running node model.jaffle_shop.fct_reviews
+[0m00:58:53.436829 [info ] [Thread-1 (]: 6 of 7 START sql incremental model airbnb.fct_reviews .......................... [RUN]
+[0m00:58:53.437431 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.jaffle_shop.dim_listings_cleansed, now model.jaffle_shop.fct_reviews)
+[0m00:58:53.437773 [debug] [Thread-1 (]: Began compiling node model.jaffle_shop.fct_reviews
+[0m00:58:53.448136 [debug] [Thread-1 (]: Writing injected SQL for node "model.jaffle_shop.fct_reviews"
+[0m00:58:53.449338 [debug] [Thread-1 (]: Began executing node model.jaffle_shop.fct_reviews
+[0m00:58:53.475715 [debug] [Thread-1 (]: On model.jaffle_shop.fct_reviews: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_shop", "target_name": "dev", "node_id": "model.jaffle_shop.fct_reviews"} */
+
+  
+    
+
+    create or replace table `fictional-lab-dev`.`airbnb`.`fct_reviews__dbt_tmp`
+      
+    
+    
+
+    
+    OPTIONS(
+      expiration_timestamp=TIMESTAMP_ADD(CURRENT_TIMESTAMP(), INTERVAL 12 hour)
+    )
+    as (
+      
+WITH src_reviews AS (
+    SELECT *
+    FROM `fictional-lab-dev`.`airbnb`.`src_reviews`
+)
+SELECT 
+    listing_id,
+    review_date,
+    reviewer_name,
+    review_text,
+    review_sentiment
+FROM src_reviews
+WHERE review_text IS NOT NULL
+
+    AND review_date >= (SELECT MAX(review_date) FROM `fictional-lab-dev`.`airbnb`.`fct_reviews`)
+
+    );
+  
+[0m00:58:53.476022 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m00:58:55.847853 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fictional-lab-dev&j=bq:US:5d160d2e-a9cf-42d6-8a51-17aa76d8aae6&page=queryresults
+[0m00:58:58.307107 [debug] [Thread-1 (]: SQL status: OK in 2.458 seconds
+[0m00:58:59.549300 [debug] [Thread-1 (]: Writing runtime sql for node "model.jaffle_shop.fct_reviews"
+[0m00:58:59.549809 [debug] [Thread-1 (]: On model.jaffle_shop.fct_reviews: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_shop", "target_name": "dev", "node_id": "model.jaffle_shop.fct_reviews"} */
+-- back compat for old kwarg name
+  
+  
+        
+    
+
+    
+
+    merge into `fictional-lab-dev`.`airbnb`.`fct_reviews` as DBT_INTERNAL_DEST
+        using (
+        select
+        * from `fictional-lab-dev`.`airbnb`.`fct_reviews__dbt_tmp`
+        ) as DBT_INTERNAL_SOURCE
+        on (FALSE)
+
+    
+
+    when not matched then insert
+        (`listing_id`, `review_date`, `reviewer_name`, `review_text`, `review_sentiment`)
+    values
+        (`listing_id`, `review_date`, `reviewer_name`, `review_text`, `review_sentiment`)
+
+
+    
+[0m00:59:00.522714 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fictional-lab-dev&j=bq:US:9f3167a8-0ef6-4fa6-819f-59599ea65e84&page=queryresults
+[0m00:59:02.314038 [debug] [Thread-1 (]: SQL status: OK in 1.790 seconds
+[0m00:59:02.628284 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6292894f-4f22-4bae-a1ba-4c56d5a0eda6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x146e66f90>]}
+[0m00:59:02.629349 [info ] [Thread-1 (]: 6 of 7 OK created sql incremental model airbnb.fct_reviews ..................... [[32mMERGE (1.0 rows, 52.0 Bytes processed)[0m in 9.19s]
+[0m00:59:02.629959 [debug] [Thread-1 (]: Finished running node model.jaffle_shop.fct_reviews
+[0m00:59:02.630366 [debug] [Thread-1 (]: Began running node model.jaffle_shop.dim_listings_w_hosts
+[0m00:59:02.630867 [info ] [Thread-1 (]: 7 of 7 START sql table model airbnb.dim_listings_w_hosts ....................... [RUN]
+[0m00:59:02.631315 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.jaffle_shop.fct_reviews, now model.jaffle_shop.dim_listings_w_hosts)
+[0m00:59:02.631653 [debug] [Thread-1 (]: Began compiling node model.jaffle_shop.dim_listings_w_hosts
+[0m00:59:02.635473 [debug] [Thread-1 (]: Writing injected SQL for node "model.jaffle_shop.dim_listings_w_hosts"
+[0m00:59:02.636623 [debug] [Thread-1 (]: Began executing node model.jaffle_shop.dim_listings_w_hosts
+[0m00:59:02.639735 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m00:59:03.846402 [debug] [Thread-1 (]: Writing runtime sql for node "model.jaffle_shop.dim_listings_w_hosts"
+[0m00:59:03.847361 [debug] [Thread-1 (]: On model.jaffle_shop.dim_listings_w_hosts: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "jaffle_shop", "target_name": "dev", "node_id": "model.jaffle_shop.dim_listings_w_hosts"} */
+
+  
+    
+
+    create or replace table `fictional-lab-dev`.`airbnb`.`dim_listings_w_hosts`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      WITH l AS (
+    SELECT * FROM `fictional-lab-dev`.`airbnb`.`dim_listings_cleansed`
+),
+h AS (
+    SELECT * FROM `fictional-lab-dev`.`airbnb`.`dim_hosts_cleansed`
+)
+SELECT
+    l.listing_id,
+    l.listing_name,
+    l.room_type,
+    l.minimum_nights,
+    l.price,
+    l.host_id,
+    h.host_name,
+    h.is_superhost as host_is_superhost,
+    l.created_at,
+    GREATEST(l.updated_at, h.updated_at) AS updated_at
+FROM l
+LEFT JOIN h ON h.host_id = l.host_id
+    );
+  
+[0m00:59:04.450175 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fictional-lab-dev&j=bq:US:9146e549-ac5c-427d-baba-c7973fb24e7d&page=queryresults
+[0m00:59:07.264168 [debug] [Thread-1 (]: SQL status: OK in 2.813 seconds
+[0m00:59:07.835505 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6292894f-4f22-4bae-a1ba-4c56d5a0eda6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x146eadf70>]}
+[0m00:59:07.836511 [info ] [Thread-1 (]: 7 of 7 OK created sql table model airbnb.dim_listings_w_hosts .................. [[32mCREATE TABLE (17.5k rows, 2.1 MiB processed)[0m in 5.20s]
+[0m00:59:07.837110 [debug] [Thread-1 (]: Finished running node model.jaffle_shop.dim_listings_w_hosts
+[0m00:59:07.838662 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m00:59:07.905664 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m00:59:07.905884 [debug] [MainThread]: Connection 'list_fictional-lab-dev_airbnb' was properly closed.
+[0m00:59:07.905993 [debug] [MainThread]: Connection 'model.jaffle_shop.dim_listings_w_hosts' was properly closed.
+[0m00:59:07.906158 [info ] [MainThread]: 
+[0m00:59:07.906284 [info ] [MainThread]: Finished running 1 incremental model, 3 table models, 3 view models in 0 hours 0 minutes and 34.85 seconds (34.85s).
+[0m00:59:07.906859 [debug] [MainThread]: Command end result
+[0m00:59:07.916414 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/target/manifest.json
+[0m00:59:07.917322 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/target/semantic_manifest.json
+[0m00:59:07.919779 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/target/run_results.json
+[0m00:59:07.919903 [info ] [MainThread]: 
+[0m00:59:07.920046 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m00:59:07.920160 [info ] [MainThread]: 
+[0m00:59:07.920292 [info ] [MainThread]: Done. PASS=7 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=7
+[0m00:59:07.922222 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 37.94744, "process_in_blocks": "0", "process_kernel_time": 0.923324, "process_mem_max_rss": "396820480", "process_out_blocks": "0", "process_user_time": 3.783513}
+[0m00:59:07.922426 [debug] [MainThread]: Command `dbt run` succeeded at 00:59:07.922388 after 37.95 seconds
+[0m00:59:07.922574 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x146e67110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x146fa4170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x146fa7d70>]}
+[0m00:59:07.922709 [debug] [MainThread]: Flushing usage events
+[0m00:59:09.687665 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m01:26:35.609023 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11c45dfd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11d7d3750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11d7d39d0>]}
+
+
+============================== 01:26:35.611126 | 860a5c25-6b41-4ae4-a2d0-5eb4764259a2 ==============================
+[0m01:26:35.611126 [info ] [MainThread]: Running with dbt=1.9.0
+[0m01:26:35.611616 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop/logs', 'fail_fast': 'False', 'profiles_dir': '/Users/cloudysunday/Documents/Github/dbt-tutorial/jaffle_shop', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt ', 'send_anonymous_usage_stats': 'True'}
+[0m01:26:35.701504 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '860a5c25-6b41-4ae4-a2d0-5eb4764259a2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11cb34fc0>]}
+[0m01:26:35.708239 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m01:26:35.708754 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m01:26:35.732982 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.15393516, "process_in_blocks": "0", "process_kernel_time": 0.074124, "process_mem_max_rss": "105512960", "process_out_blocks": "0", "process_user_time": 0.517327}
+[0m01:26:35.733297 [debug] [MainThread]: Command `cli deps` succeeded at 01:26:35.733246 after 0.15 seconds
+[0m01:26:35.733457 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11d663130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11db507c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11d845c50>]}
+[0m01:26:35.733592 [debug] [MainThread]: Flushing usage events
+[0m01:26:37.038764 [debug] [MainThread]: An error was encountered while trying to flush usage events

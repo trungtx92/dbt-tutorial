@@ -4,6 +4,9 @@ from io import StringIO
 from io import BytesIO
 import constant as cst
 import time
+import gzip
+import io
+
 from google.cloud.exceptions import NotFound
 
 def gcs_to_postgres(gcs_bucket_name, table_id, file_name, client):
@@ -22,17 +25,23 @@ def gcs_to_postgres(gcs_bucket_name, table_id, file_name, client):
         port=cst.PG_PORT
     )
     cur = conn.cursor()
-    cur.copy_expert(
-        f"""
-        COPY {table_id} FROM STDIN
-        WITH (FORMAT CSV, HEADER TRUE, DELIMITER ',', NULL '\\N')
-        """,
-        csv_data
+    gz = gzip.GzipFile(fileobj=csv_data, mode="rb")
+    text_stream = io.TextIOWrapper(gz, encoding="utf-8")
+    try:
+        cur.copy_expert(
+            f"""
+            COPY {table_id} FROM STDIN
+            WITH (FORMAT CSV, HEADER TRUE, DELIMITER ',', NULL '\\N')
+            """,
+            text_stream
         )
-    conn.commit()
-    cur.close()
-    conn.close()
-    print(f"Data from {file_name}.csv.gz has been loaded into {table_id} in PostgreSQL.")
+        conn.commit()
+        print(f"Data from {file_name}.csv.gz has been loaded into {table_id} in PostgreSQL.")
+    finally:
+        text_stream.detach()
+        gz.close()
+        cur.close()
+        conn.close()
 
 def download_with_retry(blob, destination_file, max_attempts=5, initial_delay=2):
     delay = initial_delay

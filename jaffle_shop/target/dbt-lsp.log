@@ -1,0 +1,277 @@
+==================== 2026-03-11T16:17:51.783528Z | 8ff26304-ec10-429d-a6d2-3e71f0f2addc ====================
+16:17:51.783728 [info ]: Starting dbt LSP server
+16:17:51.783789 [info ]: Connecting to LSP client on port 8000
+16:17:51.784026 [info ]: Successfully connected to LSP client
+16:17:51.784038 [info ]: Creating LSP service...
+16:17:51.832654 [info ]: Creating LSP server...
+16:17:51.832668 [info ]: Starting LSP server...
+16:17:51.845161 [info ]: Loading profiles.yml
+16:17:51.855445 [info ]: Started loading project
+16:17:51.855610 [info ]: Loading profiles.yml
+16:17:51.967213 [debug]:    Started loading packages
+16:17:51.970243 [debug]:     Loaded [  0.00s] packages
+16:17:51.971164 [info ]: Started parsing
+16:17:51.984458 [info ]: Finished loading project [  0.13s]
+16:17:51.986770 [debug]: Finished parsing models/sources.yml [  0.00s]
+16:17:51.989521 [debug]: Finished parsing models/dim/dim_hosts_cleansed.sql [  0.00s]
+16:17:51.989886 [debug]: Finished parsing models/dim/dim_listings_cleansed.sql [  0.00s]
+16:17:51.990617 [debug]: Finished parsing models/dim/dim_listings_w_hosts.sql [  0.00s]
+16:17:51.991091 [debug]: Finished parsing models/fct/fct_reviews.sql [  0.00s]
+16:17:51.991581 [debug]: Finished parsing models/mart/mart_fullmoon_reviews.sql [  0.00s]
+16:17:51.991857 [debug]: Finished parsing models/src/src_hosts.sql [  0.00s]
+16:17:51.992421 [debug]: Finished parsing models/src/src_listings.sql [  0.00s]
+16:17:51.995255 [debug]: Finished parsing models/src/src_reviews.sql [  0.00s]
+16:17:51.997649 [info ]: Finished parsing [  0.03s]
+16:17:51.997866 [info ]: Cached model count updated: 8 models (estimate)
+16:17:51.997873 [info ]: Cached model count updated: 8 models (accurate)
+16:17:51.997980 [info ]: Started scheduling
+16:17:51.998237 [info ]: Finished scheduling [  0.00s]
+16:17:51.998271 [info ]: Started scheduling
+16:17:51.998309 [info ]: Finished scheduling [  0.00s]
+16:17:51.998622 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "fictional-lab-dev", schema: "airbnb", table: "raw_hosts" }) and interval: None
+16:17:51.998635 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "fictional-lab-dev", schema: "airbnb", table: "raw_listings" }) and interval: None
+16:17:51.998640 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "fictional-lab-dev", schema: "airbnb", table: "raw_reviews" }) and interval: None
+16:17:51.999092 [info ]: Started deferring state
+16:17:51.999097 [info ]: Finished deferring state [  0.00s]
+16:17:52.001125 [debug]:    Started downloading relations (1 items)
+16:17:52.001477 [debug]:     Failed [  0.00s] downloading relations (error: Configuration Error: Keyfile '/usr/app/service_account.json' does not exist)
+16:17:52.001487 [info ]: Started downloading schemas
+16:17:52.001531 [info ]: Finished downloading schemas [  0.00s]
+16:18:45.184943 [info ]: Started loading project
+16:18:45.185755 [info ]: Loading profiles.yml
+16:18:45.286381 [debug]:    Started loading packages
+16:18:45.288800 [debug]:     Loaded [  0.00s] packages
+16:18:45.289210 [info ]: Started parsing
+16:18:45.302483 [info ]: Finished loading project [  0.12s]
+16:18:45.303189 [debug]: Finished parsing models/sources.yml [  0.00s]
+16:18:45.304746 [debug]: Finished parsing models/dim/dim_hosts_cleansed.sql [  0.00s]
+16:18:45.305181 [debug]: Finished parsing models/dim/dim_listings_cleansed.sql [  0.00s]
+16:18:45.305483 [debug]: Finished parsing models/dim/dim_listings_w_hosts.sql [  0.00s]
+16:18:45.305790 [debug]: Finished parsing models/fct/fct_reviews.sql [  0.00s]
+16:18:45.306038 [debug]: Finished parsing models/src/src_hosts.sql [  0.00s]
+16:18:45.306348 [debug]: Finished parsing models/src/src_listings.sql [  0.00s]
+16:18:45.307504 [debug]: Finished parsing models/src/src_reviews.sql [  0.00s]
+16:18:45.308319 [info ]: Finished parsing [  0.02s]
+16:18:45.308425 [info ]: Cached model count updated: 7 models (estimate)
+16:18:45.308432 [info ]: Cached model count updated: 7 models (accurate)
+16:18:45.308452 [info ]: Started scheduling
+16:18:45.308512 [info ]: Finished scheduling [  0.00s]
+16:18:45.308520 [info ]: Started scheduling
+16:18:45.308557 [info ]: Finished scheduling [  0.00s]
+16:18:45.308613 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "fictional-lab-dev", schema: "airbnb", table: "raw_hosts" }) and interval: None
+16:18:45.308621 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "fictional-lab-dev", schema: "airbnb", table: "raw_listings" }) and interval: None
+16:18:45.308626 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "fictional-lab-dev", schema: "airbnb", table: "raw_reviews" }) and interval: None
+16:18:45.308901 [info ]: Started deferring state
+16:18:45.308906 [info ]: Finished deferring state [  0.00s]
+16:18:45.309150 [debug]:    Started downloading relations (1 items)
+16:18:45.309192 [debug]:     Failed [  0.00s] downloading relations (error: Configuration Error: Keyfile '/usr/app/service_account.json' does not exist)
+16:18:45.309202 [info ]: Started downloading schemas
+16:18:45.309230 [info ]: Finished downloading schemas [  0.00s]
+16:18:47.742548 [info ]: Loading profiles.yml
+16:18:47.756997 [info ]: Started loading project
+16:18:47.757254 [info ]: Loading profiles.yml
+16:18:47.858466 [debug]:    Started loading packages
+16:18:47.858994 [debug]:     Loaded [  0.00s] packages
+16:18:47.859382 [info ]: Started parsing
+16:18:47.872034 [info ]: Finished loading project [  0.12s]
+16:18:47.872325 [debug]: Finished parsing models/sources.yml [  0.00s]
+16:18:47.873208 [debug]: Finished parsing models/dim/dim_hosts_cleansed.sql [  0.00s]
+16:18:47.873384 [debug]: Finished parsing models/dim/dim_listings_cleansed.sql [  0.00s]
+16:18:47.873544 [debug]: Finished parsing models/dim/dim_listings_w_hosts.sql [  0.00s]
+16:18:47.873819 [debug]: Finished parsing models/fct/fct_reviews.sql [  0.00s]
+16:18:47.873970 [debug]: Finished parsing models/src/src_hosts.sql [  0.00s]
+16:18:47.874137 [debug]: Finished parsing models/src/src_listings.sql [  0.00s]
+16:18:47.875245 [debug]: Finished parsing models/src/src_reviews.sql [  0.00s]
+16:18:47.876018 [info ]: Finished parsing [  0.02s]
+16:18:47.876116 [info ]: Cached model count updated: 7 models (estimate)
+16:18:47.876123 [info ]: Cached model count updated: 7 models (accurate)
+16:18:47.876139 [info ]: Started scheduling
+16:18:47.876197 [info ]: Finished scheduling [  0.00s]
+16:18:47.876204 [info ]: Started scheduling
+16:18:47.876242 [info ]: Finished scheduling [  0.00s]
+16:18:47.876265 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "fictional-lab-dev", schema: "airbnb", table: "raw_listings" }) and interval: None
+16:18:47.876273 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "fictional-lab-dev", schema: "airbnb", table: "raw_hosts" }) and interval: None
+16:18:47.876277 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "fictional-lab-dev", schema: "airbnb", table: "raw_reviews" }) and interval: None
+16:18:47.876603 [info ]: Started deferring state
+16:18:47.876609 [info ]: Finished deferring state [  0.00s]
+16:18:47.876806 [debug]:    Started downloading relations (1 items)
+16:18:47.876841 [debug]:     Failed [  0.00s] downloading relations (error: Configuration Error: Keyfile '/usr/app/service_account.json' does not exist)
+16:18:47.876849 [info ]: Started downloading schemas
+16:18:47.876880 [info ]: Finished downloading schemas [  0.00s]
+==================== 2026-03-12T13:56:18.466419Z | 47ce9c6f-3010-4cb5-bc05-4a0632909e7f ====================
+13:56:18.468908 [info ]: Starting dbt LSP server
+13:56:18.468976 [info ]: Connecting to LSP client on port 8000
+13:56:18.469445 [info ]: Successfully connected to LSP client
+13:56:18.469454 [info ]: Creating LSP service...
+13:56:18.521250 [info ]: Creating LSP server...
+13:56:18.521265 [info ]: Starting LSP server...
+13:56:18.551492 [info ]: Loading profiles.yml
+13:56:18.576479 [info ]: Started loading project
+13:56:18.576796 [info ]: Loading profiles.yml
+13:56:18.685019 [debug]:    Started loading packages
+13:56:18.686364 [debug]:     Loaded [  0.00s] packages
+13:56:18.691179 [info ]: Started parsing
+13:56:18.712377 [info ]: Finished loading project [  0.14s]
+13:56:18.720906 [debug]: Finished parsing models/sources.yml [  0.00s]
+13:56:18.728077 [debug]: Finished parsing models/dim/dim_hosts_cleansed.sql [  0.00s]
+13:56:18.728650 [debug]: Finished parsing models/dim/dim_listings_cleansed.sql [  0.00s]
+13:56:18.729117 [debug]: Finished parsing models/dim/dim_listings_w_hosts.sql [  0.00s]
+13:56:18.730670 [debug]: Finished parsing models/fct/fct_reviews.sql [  0.00s]
+13:56:18.730892 [debug]: Finished parsing models/src/src_hosts.sql [  0.00s]
+13:56:18.731106 [debug]: Finished parsing models/src/src_listings.sql [  0.00s]
+13:56:18.739423 [debug]: Finished parsing models/src/src_reviews.sql [  0.01s]
+13:56:18.746642 [info ]: Finished parsing [  0.06s]
+13:56:18.747848 [info ]: Cached model count updated: 7 models (estimate)
+13:56:18.747861 [info ]: Cached model count updated: 7 models (accurate)
+13:56:18.749329 [info ]: Started scheduling
+13:56:18.751532 [info ]: Finished scheduling [  0.00s]
+13:56:18.751575 [info ]: Started scheduling
+13:56:18.751623 [info ]: Finished scheduling [  0.00s]
+13:56:18.754574 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "fictional-lab-dev", schema: "airbnb", table: "raw_hosts" }) and interval: None
+13:56:18.754600 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "fictional-lab-dev", schema: "airbnb", table: "raw_reviews" }) and interval: None
+13:56:18.754605 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "fictional-lab-dev", schema: "airbnb", table: "raw_listings" }) and interval: None
+13:56:18.756189 [info ]: Started deferring state
+13:56:18.756196 [info ]: Finished deferring state [  0.00s]
+13:56:18.778598 [debug]:    Started downloading relations (1 items)
+13:56:18.780455 [debug]:     Failed [  0.00s] downloading relations (error: Configuration Error: Keyfile '/usr/app/service_account.json' does not exist)
+13:56:18.780466 [info ]: Started downloading schemas
+13:56:18.780561 [info ]: Finished downloading schemas [  0.00s]
+13:58:26.407278 [info ]: Loading profiles.yml
+13:58:26.414038 [info ]: Started loading project
+13:58:26.414253 [info ]: Loading profiles.yml
+13:58:26.510517 [debug]:    Started loading packages
+13:58:26.511110 [debug]:     Loaded [  0.00s] packages
+13:58:26.511516 [info ]: Started parsing
+13:58:26.525304 [info ]: Finished loading project [  0.11s]
+13:58:26.525834 [debug]: Finished parsing models/sources.yml [  0.00s]
+13:58:26.526887 [debug]: Finished parsing models/dim/dim_hosts_cleansed.sql [  0.00s]
+13:58:26.527083 [debug]: Finished parsing models/dim/dim_listings_cleansed.sql [  0.00s]
+13:58:26.527223 [debug]: Finished parsing models/dim/dim_listings_w_hosts.sql [  0.00s]
+13:58:26.527479 [debug]: Finished parsing models/fct/fct_reviews.sql [  0.00s]
+13:58:26.527625 [debug]: Finished parsing models/src/src_hosts.sql [  0.00s]
+13:58:26.527748 [debug]: Finished parsing models/src/src_listings.sql [  0.00s]
+13:58:26.528870 [debug]: Finished parsing models/src/src_reviews.sql [  0.00s]
+13:58:26.529665 [info ]: Finished parsing [  0.02s]
+13:58:26.529783 [info ]: Cached model count updated: 7 models (estimate)
+13:58:26.529790 [info ]: Cached model count updated: 7 models (accurate)
+13:58:26.529803 [info ]: Started scheduling
+13:58:26.529854 [info ]: Finished scheduling [  0.00s]
+13:58:26.529861 [info ]: Started scheduling
+13:58:26.529897 [info ]: Finished scheduling [  0.00s]
+13:58:26.529919 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "fictional-lab-dev", schema: "airbnb", table: "raw_reviews" }) and interval: None
+13:58:26.529927 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "fictional-lab-dev", schema: "airbnb", table: "raw_listings" }) and interval: None
+13:58:26.529932 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "fictional-lab-dev", schema: "airbnb", table: "raw_hosts" }) and interval: None
+13:58:26.530187 [info ]: Started deferring state
+13:58:26.530192 [info ]: Finished deferring state [  0.00s]
+13:58:26.530374 [debug]:    Started downloading relations (1 items)
+13:58:38.291521 [debug]: Query executed on node unknown:
+SELECT
+    table_catalog,
+    table_schema,
+    table_name,
+    table_type
+FROM 
+    `fictional-lab-dev`.`airbnb`.INFORMATION_SCHEMA.TABLES
+13:58:38.292950 [debug]:   Finished [ 11.76s] downloading relations (1 items)
+13:58:38.292982 [info ]: Started downloading schemas
+13:58:40.362268 [info ]: Downloaded `fictional-lab-dev`.`airbnb`.`fct_reviews` (schema)
+13:58:40.367969 [info ]: Downloaded `fictional-lab-dev`.`airbnb`.`raw_hosts` (schema)
+13:58:40.368584 [info ]: Downloaded `fictional-lab-dev`.`airbnb`.`raw_listings` (schema)
+13:58:40.368995 [info ]: Downloaded `fictional-lab-dev`.`airbnb`.`raw_reviews` (schema)
+13:58:40.450911 [info ]: Started building task graph
+13:58:40.453940 [info ]: Finished building task graph [  0.00s]
+13:58:40.457731 [info ]: Started rendering (8 nodes)
+13:58:40.458540 [info ]: Started seed airbnb.seed_full_moon_dates
+13:58:40.459166 [debug]: Started rendering seed airbnb.seed_full_moon_dates
+13:58:40.459463 [info ]: Started model airbnb.src_reviews
+13:58:40.459469 [debug]: Started rendering model airbnb.src_reviews
+13:58:40.459475 [info ]: Started model airbnb.src_listings
+13:58:40.459477 [info ]: Finished downloading schemas [  2.17s]
+13:58:40.459479 [debug]: Started rendering model airbnb.src_listings
+13:58:40.459486 [info ]: Started model airbnb.src_hosts
+13:58:40.459490 [debug]: Started rendering model airbnb.src_hosts
+13:58:40.463827 [debug]: Compiled SQL for node model.jaffle_shop.src_hosts at target/.lsp/compiled/models/src/src_hosts.sql
+13:58:40.463826 [debug]: Compiled SQL for node model.jaffle_shop.src_listings at target/.lsp/compiled/models/src/src_listings.sql
+13:58:40.463827 [debug]: Compiled SQL for node model.jaffle_shop.src_reviews at target/.lsp/compiled/models/src/src_reviews.sql
+13:58:40.464218 [debug]: Finished rendering [  0.00s] model airbnb.src_hosts [success]
+13:58:40.464241 [info ]: Started analyzing (8 nodes)
+13:58:40.464245 [debug]: Started analyzing model airbnb.src_hosts
+13:58:40.464254 [debug]: Finished rendering [  0.00s] model airbnb.src_reviews [success]
+13:58:40.464261 [debug]: Started analyzing model airbnb.src_reviews
+13:58:40.464269 [debug]: Finished rendering [  0.00s] model airbnb.src_listings [success]
+13:58:40.464274 [debug]: Started analyzing model airbnb.src_listings
+13:58:40.474671 [debug]: Finished rendering [  0.02s] seed airbnb.seed_full_moon_dates [success]
+13:58:40.474688 [debug]: Started analyzing seed airbnb.seed_full_moon_dates
+13:58:40.474763 [info ]:  Succeeded [  0.01s] seed  airbnb.seed_full_moon_dates (table)
+13:58:40.474774 [debug]: Finished analyzing [  0.00s] seed airbnb.seed_full_moon_dates [success]
+13:58:40.496814 [info ]:  Succeeded [  0.04s] model airbnb.src_reviews (view)
+13:58:40.496829 [debug]: Finished analyzing [  0.03s] model airbnb.src_reviews [success]
+13:58:40.496849 [info ]: Started model airbnb.fct_reviews
+13:58:40.496856 [debug]: Started rendering model airbnb.fct_reviews
+13:58:40.496867 [info ]:  Succeeded [  0.04s] model airbnb.src_hosts (view)
+13:58:40.496873 [debug]: Finished analyzing [  0.03s] model airbnb.src_hosts [success]
+13:58:40.496880 [info ]: Started model airbnb.dim_hosts_cleansed
+13:58:40.496884 [debug]: Started rendering model airbnb.dim_hosts_cleansed
+13:58:40.496892 [info ]:  Succeeded [  0.04s] model airbnb.src_listings (view)
+13:58:40.496898 [debug]: Finished analyzing [  0.03s] model airbnb.src_listings [success]
+13:58:40.496905 [info ]: Started model airbnb.dim_listings_cleansed
+13:58:40.496910 [debug]: Started rendering model airbnb.dim_listings_cleansed
+13:58:40.497333 [debug]: Compiled SQL for node model.jaffle_shop.dim_hosts_cleansed at target/.lsp/compiled/models/dim/dim_hosts_cleansed.sql
+13:58:40.497355 [debug]: Finished rendering [  0.00s] model airbnb.dim_hosts_cleansed [success]
+13:58:40.497356 [debug]: Started analyzing model airbnb.dim_hosts_cleansed
+13:58:40.497370 [debug]: Compiled SQL for node model.jaffle_shop.dim_listings_cleansed at target/.lsp/compiled/models/dim/dim_listings_cleansed.sql
+13:58:40.497384 [debug]: Started analyzing model airbnb.dim_listings_cleansed
+13:58:40.497392 [debug]: Finished rendering [  0.00s] model airbnb.dim_listings_cleansed [success]
+13:58:40.504729 [debug]: Compiled SQL for node model.jaffle_shop.fct_reviews at target/.lsp/compiled/models/fct/fct_reviews.sql
+13:58:40.504753 [debug]: Started analyzing model airbnb.fct_reviews
+13:58:40.504753 [debug]: Finished rendering [  0.01s] model airbnb.fct_reviews [success]
+13:58:40.507320 [info ]:  Succeeded [  0.01s] model airbnb.dim_hosts_cleansed (table)
+13:58:40.507331 [debug]: Finished analyzing [  0.01s] model airbnb.dim_hosts_cleansed [success]
+13:58:40.508044 [info ]:  Succeeded [  0.01s] model airbnb.dim_listings_cleansed (table)
+13:58:40.508051 [debug]: Finished analyzing [  0.01s] model airbnb.dim_listings_cleansed [success]
+13:58:40.508059 [info ]: Started model airbnb.dim_listings_w_hosts
+13:58:40.508064 [debug]: Started rendering model airbnb.dim_listings_w_hosts
+13:58:40.508419 [debug]: Compiled SQL for node model.jaffle_shop.dim_listings_w_hosts at target/.lsp/compiled/models/dim/dim_listings_w_hosts.sql
+13:58:40.508436 [debug]: Started analyzing model airbnb.dim_listings_w_hosts
+13:58:40.508437 [debug]: Finished rendering [  0.00s] model airbnb.dim_listings_w_hosts [success]
+13:58:40.508443 [info ]: Finished rendering [  0.05s] (8 nodes, 0 skipped, 0 errors)
+13:58:40.511327 [info ]:  Succeeded [  0.01s] model airbnb.fct_reviews (incremental)
+13:58:40.511341 [debug]: Finished analyzing [  0.01s] model airbnb.fct_reviews [success]
+13:58:40.517544 [info ]:  Succeeded [  0.01s] model airbnb.dim_listings_w_hosts (table)
+13:58:40.517561 [debug]: Finished analyzing [  0.01s] model airbnb.dim_listings_w_hosts [success]
+13:58:40.517565 [info ]: Finished analyzing [  0.05s] (8 nodes, 0 skipped, 0 errors)
+13:58:40.521926 [info ]: Cached model count updated: 7 models (accurate)
+13:59:14.958824 [info ]: Loading profiles.yml
+13:59:14.973905 [info ]: Started loading project
+13:59:14.974188 [info ]: Loading profiles.yml
+13:59:14.976927 [info ]: Started loading project
+13:59:14.977097 [info ]: Loading profiles.yml
+13:59:14.977130 [info ]: Finished loading project [  0.00s]
+13:59:15.080197 [debug]:    Started loading packages
+13:59:15.080724 [debug]:     Loaded [  0.00s] packages
+13:59:15.081139 [info ]: Started parsing
+13:59:15.093223 [info ]: Finished loading project [  0.12s]
+13:59:15.094226 [debug]: Finished parsing models/sources.yml [  0.00s]
+13:59:15.094893 [debug]: Finished parsing models/dim/dim_hosts_cleansed.sql [  0.00s]
+13:59:15.095038 [debug]: Finished parsing models/dim/dim_listings_cleansed.sql [  0.00s]
+13:59:15.095244 [debug]: Finished parsing models/dim/dim_listings_w_hosts.sql [  0.00s]
+13:59:15.095526 [debug]: Finished parsing models/fct/fct_reviews.sql [  0.00s]
+13:59:15.095679 [debug]: Finished parsing models/src/src_hosts.sql [  0.00s]
+13:59:15.095871 [debug]: Finished parsing models/src/src_listings.sql [  0.00s]
+13:59:15.097026 [debug]: Finished parsing models/src/src_reviews.sql [  0.00s]
+13:59:15.097694 [info ]: Finished parsing [  0.02s]
+13:59:15.097787 [info ]: Cached model count updated: 7 models (estimate)
+13:59:15.097793 [info ]: Cached model count updated: 7 models (accurate)
+13:59:15.097815 [info ]: Started scheduling
+13:59:15.097882 [info ]: Finished scheduling [  0.00s]
+13:59:15.097893 [info ]: Started scheduling
+13:59:15.097924 [info ]: Finished scheduling [  0.00s]
+13:59:15.097960 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "fictional-lab-dev", schema: "airbnb", table: "raw_reviews" }) and interval: None
+13:59:15.097972 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "fictional-lab-dev", schema: "airbnb", table: "raw_listings" }) and interval: None
+13:59:15.097980 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "fictional-lab-dev", schema: "airbnb", table: "raw_hosts" }) and interval: None
+13:59:15.098231 [info ]: Started deferring state
+13:59:15.098236 [info ]: Finished deferring state [  0.00s]
+13:59:15.098486 [debug]:    Started downloading relations (1 items)
+13:59:15.098527 [debug]:     Failed [  0.00s] downloading relations (error: Configuration Error: Keyfile '/usr/app/service_account.json' does not exist)
+13:59:15.098535 [info ]: Started downloading schemas
+13:59:15.098563 [info ]: Finished downloading schemas [  0.00s]
